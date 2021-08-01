@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "https://my-first-blog-jun.herokuapp.com",
-  "homepage": ".",
+  "homepage": "https://github.com/juncheng712/my-first-blog-front-end",
   "dependencies": {
     "@material-ui/core": "^4.12.2",
     "@material-ui/icons": "^4.11.2",
@@ -13,6 +13,7 @@
     "@testing-library/user-event": "^7.2.1",
     "autosize": "^5.0.1",
     "axios": "^0.21.1",
+    "gh-pages": "^3.2.3",
     "install": "^0.13.0",
     "match-sorter": "^6.3.0",
     "npm": "^7.20.0",
@@ -28,6 +29,8 @@
     "redux-persist": "^6.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
