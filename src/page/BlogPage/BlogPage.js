@@ -22,8 +22,6 @@ function BlogPage() {
         setTimeout(function() { 
             dispatch(getUpdatedPost(id))
         }, 1000)
-        console.log(localStorage.getItem("authToken"))
-        // dispatch(getUpdatedPost(id))
     }, [])
 
     const deletePost = () => {
