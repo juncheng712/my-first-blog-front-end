@@ -1,0 +1,15 @@
+.filter {
+    display: flex;
+    justify-content: center;
+    flex: 0.5;
+}
+
+.filter__filters {
+    height: 40px;
+    width: 200px;
+    margin-right: 10px;
+    background-color: white;
+    border: #233FAA solid 2px;
+    color: black;
+    font-size: 15px;
+}

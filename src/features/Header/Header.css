@@ -1,0 +1,47 @@
+* {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    /* position: fixed; */
+    /* top: 0; */
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+    height: 50px;
+    align-items: center;
+    overflow: auto;
+}
+
+.header__choiceSection {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.header__choice {
+    padding: 10px;
+    color: black;
+}
+
+.header__choice:hover {
+    cursor: pointer;
+    border-bottom: 1px double black; 
+    animation-name: header__choice_jump;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+}
+
+@keyframes header__choice_jump {
+    0%   {padding-top: -10px;}
+    100% {padding-top: 0;}
+}

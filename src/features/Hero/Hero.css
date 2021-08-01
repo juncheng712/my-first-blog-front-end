@@ -1,0 +1,25 @@
+
+.hero {
+    background-image: url(https://res.cloudinary.com/dfeh7lczz/image/upload/v1626847905/CTnbfCtg_wjrle5.jpg);
+    min-height: 400px;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+
+.hero__welcome {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.hero__welcome > p {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    letter-spacing: 10px;
+    font-size: 20px;
+}

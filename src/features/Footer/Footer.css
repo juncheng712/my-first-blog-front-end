@@ -1,0 +1,16 @@
+.footer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    bottom: 0px;
+    position: sticky;
+    background-color: white;
+    text-align: center;
+    z-index: 100;
+}
+
+
+.footer > p > span {
+    color: #233FAA;
+    font-weight: bold;
+}
