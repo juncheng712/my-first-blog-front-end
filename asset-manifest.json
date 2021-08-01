@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/juncheng712/my-first-blog-front-end/static/css/main.4a791b18.chunk.css",
+    "main.js": "/juncheng712/my-first-blog-front-end/static/js/main.5e08a2ac.chunk.js",
+    "main.js.map": "/juncheng712/my-first-blog-front-end/static/js/main.5e08a2ac.chunk.js.map",
+    "runtime-main.js": "/juncheng712/my-first-blog-front-end/static/js/runtime-main.8458eba9.js",
+    "runtime-main.js.map": "/juncheng712/my-first-blog-front-end/static/js/runtime-main.8458eba9.js.map",
+    "static/js/2.fa15c5bd.chunk.js": "/juncheng712/my-first-blog-front-end/static/js/2.fa15c5bd.chunk.js",
+    "static/js/2.fa15c5bd.chunk.js.map": "/juncheng712/my-first-blog-front-end/static/js/2.fa15c5bd.chunk.js.map",
+    "index.html": "/juncheng712/my-first-blog-front-end/index.html",
+    "static/css/main.4a791b18.chunk.css.map": "/juncheng712/my-first-blog-front-end/static/css/main.4a791b18.chunk.css.map",
+    "static/js/2.fa15c5bd.chunk.js.LICENSE.txt": "/juncheng712/my-first-blog-front-end/static/js/2.fa15c5bd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8458eba9.js",
+    "static/js/2.fa15c5bd.chunk.js",
+    "static/css/main.4a791b18.chunk.css",
+    "static/js/main.5e08a2ac.chunk.js"
+  ]
+}
